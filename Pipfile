@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+aiogram = "~=2.23"
+aioredis = "~=2.0"
+environs = "~=9.5"
+asyncpg = "*"
+sqlalchemy = {extras = ["asyncio"], version = "*"}
+fast-bitrix24 = "*"
+aioschedule = "*"
+python-binance = "*"
+aiosmtplib = "*"
+aiohttp = "*"
+aiofiles = "*"
+isoweek = "*"
+aiogram-broadcaster = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
